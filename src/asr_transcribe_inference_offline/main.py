@@ -1,21 +1,21 @@
-import time
-from typing import Any, List
-from fastapi import FastAPI, File, HTTPException, Request, UploadFile
-import soundfile as sf
-import io
-import numpy as np
-import scipy.signal
-import logging
-from faster_whisper.vad import get_speech_timestamps, VadOptions
-from faster_whisper_large import transcribe_whisper_large_segment
-from whisper_th_small import transcribe_whisper_small_segment
-
+# import time
+# from typing import Any
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import io
+import logging
+import time
+from fastapi import FastAPI, File, UploadFile
+import numpy as np
+import scipy
+from faster_whisper.vad import get_speech_timestamps, VadOptions
+from asr_transcribe_inference_offline.faster_whisper_large import transcribe_whisper_large_segment
+from asr_transcribe_inference_offline.vllm_whisper import transcribe
+from asr_transcribe_inference_offline.whisper_th_small import transcribe_whisper_small_segment
+import soundfile as sf
+from typing import Any, List
 
-MAX_WORKERS = 2  # ปรับตามจำนวน GPU core/memory ที่เหมาะสม
+MAX_WORKERS = 2 
 
-
-# ✅ ตั้งค่า logger
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -24,7 +24,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 app = FastAPI()
-
 
 def chunk_audio(waveform: np.ndarray[Any, np.dtype[np.float64]], sample_rate: int = 16000):
     if len(waveform.shape) == 2:
@@ -103,6 +102,17 @@ async def transcribe_audio(file: UploadFile = File(...)):
 
     return {"transcription": transcription}
 
+@app.post("/transcribe/vllm-whisper")
+def transcribe_audio(file: UploadFile = File(...)):
+    total_start = time.time()
+    
+    transcription = transcribe()
+
+    logger.info(f"[Total] End-to-end time: {time.time() - total_start:.2f}s")
+
+    return {"transcription": transcription}
+
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000)
+    uvicorn.run("src.asr_transcribe_inference_offline.main", host="0.0.0.0", port=8000)

@@ -3,7 +3,6 @@ import numpy as np
 import torch
 from faster_whisper import WhisperModel
 
-# Setup logger
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -11,9 +10,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Load Faster-Whisper model
 model = WhisperModel(
-    "./biodatlab-whisper-th-large-v3-faster",
+    "./models/biodatlab-whisper-th-large-v3-faster",
     device="cuda",
     compute_type="float16",
     device_index=0,
@@ -33,4 +31,5 @@ def transcribe_whisper_large_segment(chunk: np.ndarray) -> str:
     )
     
     transcription = " ".join([seg.text.strip() for seg in segments])
-    return transcription,
+    
+    return transcription

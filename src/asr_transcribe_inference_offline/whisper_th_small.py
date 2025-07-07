@@ -8,7 +8,6 @@ import torch
 import numpy as np
 import logging
 
-# ✅ ตั้งค่า logger
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -17,7 +16,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-model_path = "./distill-whisper-th-small"
+model_path = "./models/distill-whisper-th-small"
 model = WhisperForConditionalGeneration.from_pretrained(model_path)
 processor = WhisperProcessor.from_pretrained(model_path)
 tokenizer = cast(WhisperProcessor, processor.tokenizer)
