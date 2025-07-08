@@ -44,112 +44,29 @@
         "documentation": {}
     },
     {
-        "label": "logging",
+        "label": "io",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
         "documentation": {}
     },
     {
-        "label": "numpy",
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "librosa",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "torch",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "torch",
-        "description": "torch",
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "WhisperModel",
-        "importPath": "faster_whisper",
-        "description": "faster_whisper",
-        "isExtraImport": true,
-        "detail": "faster_whisper",
-        "documentation": {}
-    },
-    {
-        "label": "WhisperModel",
-        "importPath": "faster_whisper",
-        "description": "faster_whisper",
-        "isExtraImport": true,
-        "detail": "faster_whisper",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "cast",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "cast",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "fastapi",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "detail": "fastapi",
+        "importPath": "librosa",
+        "description": "librosa",
+        "detail": "librosa",
         "documentation": {}
     },
     {
@@ -162,6 +79,14 @@
     },
     {
         "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -177,259 +102,15 @@
         "documentation": {}
     },
     {
-        "label": "Request",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
         "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "UploadFile",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "File",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "UploadFile",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "soundfile",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "soundfile",
-        "description": "soundfile",
-        "detail": "soundfile",
-        "documentation": {}
-    },
-    {
-        "label": "io",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "io",
-        "description": "io",
-        "detail": "io",
-        "documentation": {}
-    },
-    {
-        "label": "scipy.signal",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "scipy.signal",
-        "description": "scipy.signal",
-        "detail": "scipy.signal",
-        "documentation": {}
-    },
-    {
-        "label": "get_speech_timestamps",
-        "importPath": "faster_whisper.vad",
-        "description": "faster_whisper.vad",
-        "isExtraImport": true,
-        "detail": "faster_whisper.vad",
-        "documentation": {}
-    },
-    {
-        "label": "VadOptions",
-        "importPath": "faster_whisper.vad",
-        "description": "faster_whisper.vad",
-        "isExtraImport": true,
-        "detail": "faster_whisper.vad",
-        "documentation": {}
-    },
-    {
-        "label": "get_speech_timestamps",
-        "importPath": "faster_whisper.vad",
-        "description": "faster_whisper.vad",
-        "isExtraImport": true,
-        "detail": "faster_whisper.vad",
-        "documentation": {}
-    },
-    {
-        "label": "VadOptions",
-        "importPath": "faster_whisper.vad",
-        "description": "faster_whisper.vad",
-        "isExtraImport": true,
-        "detail": "faster_whisper.vad",
-        "documentation": {}
-    },
-    {
-        "label": "transcribe_whisper_large_segment",
-        "importPath": "faster_whisper_large",
-        "description": "faster_whisper_large",
-        "isExtraImport": true,
-        "detail": "faster_whisper_large",
-        "documentation": {}
-    },
-    {
-        "label": "transcribe_whisper_small_segment",
-        "importPath": "whisper_th_small",
-        "description": "whisper_th_small",
-        "isExtraImport": true,
-        "detail": "whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "ThreadPoolExecutor",
-        "importPath": "concurrent.futures",
-        "description": "concurrent.futures",
-        "isExtraImport": true,
-        "detail": "concurrent.futures",
-        "documentation": {}
-    },
-    {
-        "label": "as_completed",
-        "importPath": "concurrent.futures",
-        "description": "concurrent.futures",
-        "isExtraImport": true,
-        "detail": "concurrent.futures",
-        "documentation": {}
-    },
-    {
-        "label": "ThreadPoolExecutor",
-        "importPath": "concurrent.futures",
-        "description": "concurrent.futures",
-        "isExtraImport": true,
-        "detail": "concurrent.futures",
-        "documentation": {}
-    },
-    {
-        "label": "as_completed",
-        "importPath": "concurrent.futures",
-        "description": "concurrent.futures",
-        "isExtraImport": true,
-        "detail": "concurrent.futures",
-        "documentation": {}
-    },
-    {
-        "label": "scipy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "scipy",
-        "description": "scipy",
-        "detail": "scipy",
-        "documentation": {}
-    },
-    {
-        "label": "WhisperProcessor",
-        "importPath": "transformers",
-        "description": "transformers",
-        "isExtraImport": true,
-        "detail": "transformers",
-        "documentation": {}
-    },
-    {
-        "label": "WhisperForConditionalGeneration",
-        "importPath": "transformers",
-        "description": "transformers",
-        "isExtraImport": true,
-        "detail": "transformers",
-        "documentation": {}
-    },
-    {
-        "label": "WhisperFeatureExtractor",
-        "importPath": "transformers",
-        "description": "transformers",
-        "isExtraImport": true,
-        "detail": "transformers",
-        "documentation": {}
-    },
-    {
-        "label": "WhisperProcessor",
-        "importPath": "transformers",
-        "description": "transformers",
-        "isExtraImport": true,
-        "detail": "transformers",
-        "documentation": {}
-    },
-    {
-        "label": "WhisperForConditionalGeneration",
-        "importPath": "transformers",
-        "description": "transformers",
-        "isExtraImport": true,
-        "detail": "transformers",
-        "documentation": {}
-    },
-    {
-        "label": "WhisperFeatureExtractor",
-        "importPath": "transformers",
-        "description": "transformers",
-        "isExtraImport": true,
-        "detail": "transformers",
-        "documentation": {}
-    },
-    {
-        "label": "transcribe_whisper_large_segment",
-        "importPath": "asr_transcribe_inference_offline.faster_whisper_large",
-        "description": "asr_transcribe_inference_offline.faster_whisper_large",
-        "isExtraImport": true,
-        "detail": "asr_transcribe_inference_offline.faster_whisper_large",
-        "documentation": {}
-    },
-    {
-        "label": "transcribe",
-        "importPath": "asr_transcribe_inference_offline.vllm_whisper",
-        "description": "asr_transcribe_inference_offline.vllm_whisper",
-        "isExtraImport": true,
-        "detail": "asr_transcribe_inference_offline.vllm_whisper",
-        "documentation": {}
-    },
-    {
-        "label": "transcribe_whisper_small_segment",
-        "importPath": "asr_transcribe_inference_offline.whisper_th_small",
-        "description": "asr_transcribe_inference_offline.whisper_th_small",
-        "isExtraImport": true,
-        "detail": "asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "defaultdict",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "asdict",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
+        "detail": "fastapi.responses",
         "documentation": {}
     },
     {
         "label": "LLM",
-        "importPath": "vllm",
-        "description": "vllm",
-        "isExtraImport": true,
-        "detail": "vllm",
-        "documentation": {}
-    },
-    {
-        "label": "EngineArgs",
         "importPath": "vllm",
         "description": "vllm",
         "isExtraImport": true,
@@ -442,14 +123,6 @@
         "description": "vllm",
         "isExtraImport": true,
         "detail": "vllm",
-        "documentation": {}
-    },
-    {
-        "label": "AudioAsset",
-        "importPath": "vllm.assets.audio",
-        "description": "vllm.assets.audio",
-        "isExtraImport": true,
-        "detail": "vllm.assets.audio",
         "documentation": {}
     },
     {
@@ -534,408 +207,39 @@
         "documentation": {}
     },
     {
-        "label": "transcribe_whisper_large_segment",
+        "label": "read_root",
         "kind": 2,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.faster_whisper_large",
-        "description": ".venv.src.asr-transcribe-inference-offline.faster_whisper_large",
-        "peekOfCode": "def transcribe_whisper_large_segment(chunk: np.ndarray) -> str:\n    segments, _ = model.transcribe(\n        chunk,\n        language=\"th\",\n        beam_size=5\n    )\n    transcription = \" \".join([seg.text.strip() for seg in segments])\n    return transcription,",
-        "detail": ".venv.src.asr-transcribe-inference-offline.faster_whisper_large",
+        "importPath": "src.transcribe_vllm.main",
+        "description": "src.transcribe_vllm.main",
+        "peekOfCode": "def read_root():\n    \"\"\"\n    A simple root endpoint to check if the server is running.\n    \"\"\"\n    return {\"message\": \"Welcome to the Audio Transcription API with vLLM!\"}\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"src.transcribe_vllm.main:app\", host=\"0.0.0.0\", port=8000)",
+        "detail": "src.transcribe_vllm.main",
         "documentation": {}
     },
     {
-        "label": "logger",
+        "label": "llm_engine",
         "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.faster_whisper_large",
-        "description": ".venv.src.asr-transcribe-inference-offline.faster_whisper_large",
-        "peekOfCode": "logger = logging.getLogger(__name__)\n# Load Faster-Whisper model\nmodel = WhisperModel(\n    \"./biodatlab-whisper-th-large-v3-faster\",\n    device=\"cuda\",\n    compute_type=\"float16\",\n    device_index=0,\n    cpu_threads=2,\n    num_workers=8,\n)",
-        "detail": ".venv.src.asr-transcribe-inference-offline.faster_whisper_large",
+        "importPath": "src.transcribe_vllm.main",
+        "description": "src.transcribe_vllm.main",
+        "peekOfCode": "llm_engine = None\nsampling_params = None\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    \"\"\"\n    An asynchronous context manager to handle the startup and shutdown events\n    of the FastAPI application. This is the recommended way to manage resources\n    like machine learning models.\n    \"\"\"\n    global llm_engine, sampling_params",
+        "detail": "src.transcribe_vllm.main",
         "documentation": {}
     },
     {
-        "label": "model",
+        "label": "sampling_params",
         "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.faster_whisper_large",
-        "description": ".venv.src.asr-transcribe-inference-offline.faster_whisper_large",
-        "peekOfCode": "model = WhisperModel(\n    \"./biodatlab-whisper-th-large-v3-faster\",\n    device=\"cuda\",\n    compute_type=\"float16\",\n    device_index=0,\n    cpu_threads=2,\n    num_workers=8,\n)\nlogger.info(f\"Loaded Faster-Whisper model on device: {torch.cuda.get_device_capability()}, compute_type: float16\")\nlogger.info(f\"Cuda available: {torch.cuda.is_available()}\")",
-        "detail": ".venv.src.asr-transcribe-inference-offline.faster_whisper_large",
-        "documentation": {}
-    },
-    {
-        "label": "chunk_audio",
-        "kind": 2,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.main",
-        "description": ".venv.src.asr-transcribe-inference-offline.main",
-        "peekOfCode": "def chunk_audio(waveform: np.ndarray[Any, np.dtype[np.float64]], sample_rate: int = 16000):\n    if len(waveform.shape) == 2:\n        waveform = np.mean(waveform, axis=1)\n    if sample_rate != 16000:\n        num_samples = round(len(waveform) * float(16000) / sample_rate)\n        waveform = scipy.signal.resample(waveform, num_samples)\n        sample_rate = 16000  # Update sample_rate after resampling\n    vad_options = VadOptions(\n        threshold=0.4,\n        min_speech_duration_ms=400,",
-        "detail": ".venv.src.asr-transcribe-inference-offline.main",
-        "documentation": {}
-    },
-    {
-        "label": "MAX_WORKERS",
-        "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.main",
-        "description": ".venv.src.asr-transcribe-inference-offline.main",
-        "peekOfCode": "MAX_WORKERS = 2  # ปรับตามจำนวน GPU core/memory ที่เหมาะสม\n# ✅ ตั้งค่า logger\nlogging.basicConfig(\n    level=logging.INFO,\n    format=\"%(asctime)s [%(levelname)s] %(message)s\",\n    handlers=[logging.StreamHandler()]\n)\nlogger = logging.getLogger(__name__)\napp = FastAPI()\ndef chunk_audio(waveform: np.ndarray[Any, np.dtype[np.float64]], sample_rate: int = 16000):",
-        "detail": ".venv.src.asr-transcribe-inference-offline.main",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.main",
-        "description": ".venv.src.asr-transcribe-inference-offline.main",
-        "peekOfCode": "logger = logging.getLogger(__name__)\napp = FastAPI()\ndef chunk_audio(waveform: np.ndarray[Any, np.dtype[np.float64]], sample_rate: int = 16000):\n    if len(waveform.shape) == 2:\n        waveform = np.mean(waveform, axis=1)\n    if sample_rate != 16000:\n        num_samples = round(len(waveform) * float(16000) / sample_rate)\n        waveform = scipy.signal.resample(waveform, num_samples)\n        sample_rate = 16000  # Update sample_rate after resampling\n    vad_options = VadOptions(",
-        "detail": ".venv.src.asr-transcribe-inference-offline.main",
+        "importPath": "src.transcribe_vllm.main",
+        "description": "src.transcribe_vllm.main",
+        "peekOfCode": "sampling_params = None\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    \"\"\"\n    An asynchronous context manager to handle the startup and shutdown events\n    of the FastAPI application. This is the recommended way to manage resources\n    like machine learning models.\n    \"\"\"\n    global llm_engine, sampling_params\n    print(\"Loading the transcription model...\")",
+        "detail": "src.transcribe_vllm.main",
         "documentation": {}
     },
     {
         "label": "app",
         "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.main",
-        "description": ".venv.src.asr-transcribe-inference-offline.main",
-        "peekOfCode": "app = FastAPI()\ndef chunk_audio(waveform: np.ndarray[Any, np.dtype[np.float64]], sample_rate: int = 16000):\n    if len(waveform.shape) == 2:\n        waveform = np.mean(waveform, axis=1)\n    if sample_rate != 16000:\n        num_samples = round(len(waveform) * float(16000) / sample_rate)\n        waveform = scipy.signal.resample(waveform, num_samples)\n        sample_rate = 16000  # Update sample_rate after resampling\n    vad_options = VadOptions(\n        threshold=0.4,",
-        "detail": ".venv.src.asr-transcribe-inference-offline.main",
-        "documentation": {}
-    },
-    {
-        "label": "create_transcribe_prompt",
-        "kind": 2,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "def create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",\n        \"<|notimestamps|>\"\n    ]\ndef transcribe_whisper_small_segment(idx: int, chunk: np.ndarray, sample_rate: int = 16000, lang: str = \"th\"):\n        logger.info(f\"[Chunking] Processing : {idx}\")\n        if len(chunk.shape) == 2:",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "transcribe_whisper_small_segment",
-        "kind": 2,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "def transcribe_whisper_small_segment(idx: int, chunk: np.ndarray, sample_rate: int = 16000, lang: str = \"th\"):\n        logger.info(f\"[Chunking] Processing : {idx}\")\n        if len(chunk.shape) == 2:\n            chunk = np.mean(chunk, axis=1)\n        if sample_rate != 16000:\n            num_samples = round(len(chunk) * float(16000) / sample_rate)\n            chunk = scipy.signal.resample(chunk, num_samples)\n        start = time.time()\n        input_features, decoder_input_ids = preprocess_audio(chunk)\n        logger.info(f\"[{idx}] Preprocessing done in {time.time() - start:.2f}s\")",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "preprocess_audio",
-        "kind": 2,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "def preprocess_audio(chunk: np.ndarray):\n    input_data = feature_extractor(\n        chunk,\n        sampling_rate=16000,\n        return_tensors=\"pt\"\n    )\n    prompts = tokenizer.convert_tokens_to_ids(create_transcribe_prompt())\n    decoder_input_ids = torch.tensor([prompts], device=device)\n    input_features = input_data.input_features.to(device)\n    return input_features, decoder_input_ids",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "run_inference",
-        "kind": 2,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "def run_inference(input_features, decoder_input_ids, lang: str):\n    forced_decoder_ids = processor.get_decoder_prompt_ids(language=lang, task=\"transcribe\")\n    generated_ids = model.generate(\n         input_features=input_features,\n        decoder_input_ids=decoder_input_ids,\n        use_cache=True,\n        no_repeat_ngram_size=3,\n        repetition_penalty=1.05,\n        forced_decoder_ids=forced_decoder_ids,\n    )",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "postprocess_output",
-        "kind": 2,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "def postprocess_output(generated_ids):\n    if generated_ids.shape[0] > 1:\n        transcription = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)\n        return transcription[0]\n    else:\n        return tokenizer.decode(generated_ids[0], skip_special_tokens=True)",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nmodel_path = \"./distill-whisper-th-small\"\nmodel = WhisperForConditionalGeneration.from_pretrained(model_path)\nprocessor = WhisperProcessor.from_pretrained(model_path)\ntokenizer = cast(WhisperProcessor, processor.tokenizer)\nfeature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "model_path",
-        "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "model_path = \"./distill-whisper-th-small\"\nmodel = WhisperForConditionalGeneration.from_pretrained(model_path)\nprocessor = WhisperProcessor.from_pretrained(model_path)\ntokenizer = cast(WhisperProcessor, processor.tokenizer)\nfeature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "model",
-        "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "model = WhisperForConditionalGeneration.from_pretrained(model_path)\nprocessor = WhisperProcessor.from_pretrained(model_path)\ntokenizer = cast(WhisperProcessor, processor.tokenizer)\nfeature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "processor",
-        "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "processor = WhisperProcessor.from_pretrained(model_path)\ntokenizer = cast(WhisperProcessor, processor.tokenizer)\nfeature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "tokenizer",
-        "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "tokenizer = cast(WhisperProcessor, processor.tokenizer)\nfeature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "feature_extractor",
-        "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "feature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",\n        \"<|notimestamps|>\"",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "device",
-        "kind": 5,
-        "importPath": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "description": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",\n        \"<|notimestamps|>\"\n    ]",
-        "detail": ".venv.src.asr-transcribe-inference-offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "transcribe_whisper_large_segment",
-        "kind": 2,
-        "importPath": "src.asr_transcribe_inference_offline.faster_whisper_large",
-        "description": "src.asr_transcribe_inference_offline.faster_whisper_large",
-        "peekOfCode": "def transcribe_whisper_large_segment(chunk: np.ndarray) -> str:\n    segments, _ = model.transcribe(\n        chunk,\n        language=\"th\",\n        beam_size=5\n    )\n    transcription = \" \".join([seg.text.strip() for seg in segments])\n    return transcription",
-        "detail": "src.asr_transcribe_inference_offline.faster_whisper_large",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.faster_whisper_large",
-        "description": "src.asr_transcribe_inference_offline.faster_whisper_large",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nmodel = WhisperModel(\n    \"./models/biodatlab-whisper-th-large-v3-faster\",\n    device=\"cuda\",\n    compute_type=\"float16\",\n    device_index=0,\n    cpu_threads=2,\n    num_workers=8,\n)\nlogger.info(f\"Loaded Faster-Whisper model on device: {torch.cuda.get_device_capability()}, compute_type: float16\")",
-        "detail": "src.asr_transcribe_inference_offline.faster_whisper_large",
-        "documentation": {}
-    },
-    {
-        "label": "model",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.faster_whisper_large",
-        "description": "src.asr_transcribe_inference_offline.faster_whisper_large",
-        "peekOfCode": "model = WhisperModel(\n    \"./models/biodatlab-whisper-th-large-v3-faster\",\n    device=\"cuda\",\n    compute_type=\"float16\",\n    device_index=0,\n    cpu_threads=2,\n    num_workers=8,\n)\nlogger.info(f\"Loaded Faster-Whisper model on device: {torch.cuda.get_device_capability()}, compute_type: float16\")\nlogger.info(f\"Cuda available: {torch.cuda.is_available()}\")",
-        "detail": "src.asr_transcribe_inference_offline.faster_whisper_large",
-        "documentation": {}
-    },
-    {
-        "label": "chunk_audio",
-        "kind": 2,
-        "importPath": "src.asr_transcribe_inference_offline.main",
-        "description": "src.asr_transcribe_inference_offline.main",
-        "peekOfCode": "def chunk_audio(waveform: np.ndarray[Any, np.dtype[np.float64]], sample_rate: int = 16000):\n    if len(waveform.shape) == 2:\n        waveform = np.mean(waveform, axis=1)\n    if sample_rate != 16000:\n        num_samples = round(len(waveform) * float(16000) / sample_rate)\n        waveform = scipy.signal.resample(waveform, num_samples)\n        sample_rate = 16000  # Update sample_rate after resampling\n    vad_options = VadOptions(\n        threshold=0.4,\n        min_speech_duration_ms=400,",
-        "detail": "src.asr_transcribe_inference_offline.main",
-        "documentation": {}
-    },
-    {
-        "label": "transcribe_audio",
-        "kind": 2,
-        "importPath": "src.asr_transcribe_inference_offline.main",
-        "description": "src.asr_transcribe_inference_offline.main",
-        "peekOfCode": "def transcribe_audio(file: UploadFile = File(...)):\n    total_start = time.time()\n    transcription = transcribe()\n    logger.info(f\"[Total] End-to-end time: {time.time() - total_start:.2f}s\")\n    return {\"transcription\": transcription}\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"src.asr_transcribe_inference_offline.main\", host=\"0.0.0.0\", port=8000)",
-        "detail": "src.asr_transcribe_inference_offline.main",
-        "documentation": {}
-    },
-    {
-        "label": "MAX_WORKERS",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.main",
-        "description": "src.asr_transcribe_inference_offline.main",
-        "peekOfCode": "MAX_WORKERS = 2 \nlogging.basicConfig(\n    level=logging.INFO,\n    format=\"%(asctime)s [%(levelname)s] %(message)s\",\n    handlers=[logging.StreamHandler()]\n)\nlogger = logging.getLogger(__name__)\napp = FastAPI()\ndef chunk_audio(waveform: np.ndarray[Any, np.dtype[np.float64]], sample_rate: int = 16000):\n    if len(waveform.shape) == 2:",
-        "detail": "src.asr_transcribe_inference_offline.main",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.main",
-        "description": "src.asr_transcribe_inference_offline.main",
-        "peekOfCode": "logger = logging.getLogger(__name__)\napp = FastAPI()\ndef chunk_audio(waveform: np.ndarray[Any, np.dtype[np.float64]], sample_rate: int = 16000):\n    if len(waveform.shape) == 2:\n        waveform = np.mean(waveform, axis=1)\n    if sample_rate != 16000:\n        num_samples = round(len(waveform) * float(16000) / sample_rate)\n        waveform = scipy.signal.resample(waveform, num_samples)\n        sample_rate = 16000  # Update sample_rate after resampling\n    vad_options = VadOptions(",
-        "detail": "src.asr_transcribe_inference_offline.main",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.main",
-        "description": "src.asr_transcribe_inference_offline.main",
-        "peekOfCode": "app = FastAPI()\ndef chunk_audio(waveform: np.ndarray[Any, np.dtype[np.float64]], sample_rate: int = 16000):\n    if len(waveform.shape) == 2:\n        waveform = np.mean(waveform, axis=1)\n    if sample_rate != 16000:\n        num_samples = round(len(waveform) * float(16000) / sample_rate)\n        waveform = scipy.signal.resample(waveform, num_samples)\n        sample_rate = 16000  # Update sample_rate after resampling\n    vad_options = VadOptions(\n        threshold=0.4,",
-        "detail": "src.asr_transcribe_inference_offline.main",
-        "documentation": {}
-    },
-    {
-        "label": "create_transcribe_prompt",
-        "kind": 2,
-        "importPath": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "description": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "peekOfCode": "def create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",\n        \"<|notimestamps|>\"\n    ]\ndef transcribe():\n    prompt = \" \".join(create_transcribe_prompt())\n    default_limits = {\"image\": 0, \"video\": 0, \"audio\": 0}",
-        "detail": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "documentation": {}
-    },
-    {
-        "label": "transcribe",
-        "kind": 2,
-        "importPath": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "description": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "peekOfCode": "def transcribe():\n    prompt = \" \".join(create_transcribe_prompt())\n    default_limits = {\"image\": 0, \"video\": 0, \"audio\": 0}\n    engine_args = EngineArgs(\n        model=model_name,\n        max_model_len=448,\n        max_num_seqs=5,\n        limit_mm_per_prompt={\"audio\": audio_count},\n    )\n    engine_args.limit_mm_per_prompt = default_limits | dict(",
-        "detail": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_OFFLINE\"]",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "description": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_OFFLINE\"] = \"1\"\nlogging.basicConfig(\n    level=logging.INFO,\n    format=\"%(asctime)s [%(levelname)s] %(message)s\",\n    handlers=[logging.StreamHandler()]\n)\nlogger = logging.getLogger(__name__)\nmodel_name = \"./models/distill-whisper-th-small\"\naudio_count = 1\ndef create_transcribe_prompt():",
-        "detail": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "description": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nmodel_name = \"./models/distill-whisper-th-small\"\naudio_count = 1\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",\n        \"<|notimestamps|>\"\n    ]",
-        "detail": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "documentation": {}
-    },
-    {
-        "label": "model_name",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "description": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "peekOfCode": "model_name = \"./models/distill-whisper-th-small\"\naudio_count = 1\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",\n        \"<|notimestamps|>\"\n    ]\ndef transcribe():",
-        "detail": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "documentation": {}
-    },
-    {
-        "label": "audio_count",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "description": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "peekOfCode": "audio_count = 1\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",\n        \"<|notimestamps|>\"\n    ]\ndef transcribe():\n    prompt = \" \".join(create_transcribe_prompt())",
-        "detail": "src.asr_transcribe_inference_offline.vllm_whisper",
-        "documentation": {}
-    },
-    {
-        "label": "create_transcribe_prompt",
-        "kind": 2,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "def create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",\n        \"<|notimestamps|>\"\n    ]\ndef transcribe_whisper_small_segment(idx: int, chunk: np.ndarray, sample_rate: int = 16000, lang: str = \"th\"):\n        logger.info(f\"[Chunking] Processing : {idx}\")\n        if len(chunk.shape) == 2:",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "transcribe_whisper_small_segment",
-        "kind": 2,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "def transcribe_whisper_small_segment(idx: int, chunk: np.ndarray, sample_rate: int = 16000, lang: str = \"th\"):\n        logger.info(f\"[Chunking] Processing : {idx}\")\n        if len(chunk.shape) == 2:\n            chunk = np.mean(chunk, axis=1)\n        if sample_rate != 16000:\n            num_samples = round(len(chunk) * float(16000) / sample_rate)\n            chunk = scipy.signal.resample(chunk, num_samples)\n        start = time.time()\n        input_features, decoder_input_ids = preprocess_audio(chunk)\n        logger.info(f\"[{idx}] Preprocessing done in {time.time() - start:.2f}s\")",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "preprocess_audio",
-        "kind": 2,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "def preprocess_audio(chunk: np.ndarray):\n    input_data = feature_extractor(\n        chunk,\n        sampling_rate=16000,\n        return_tensors=\"pt\"\n    )\n    prompts = tokenizer.convert_tokens_to_ids(create_transcribe_prompt())\n    decoder_input_ids = torch.tensor([prompts], device=device)\n    input_features = input_data.input_features.to(device)\n    return input_features, decoder_input_ids",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "run_inference",
-        "kind": 2,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "def run_inference(input_features, decoder_input_ids, lang: str):\n    forced_decoder_ids = processor.get_decoder_prompt_ids(language=lang, task=\"transcribe\")\n    generated_ids = model.generate(\n         input_features=input_features,\n        decoder_input_ids=decoder_input_ids,\n        use_cache=True,\n        no_repeat_ngram_size=3,\n        repetition_penalty=1.05,\n        forced_decoder_ids=forced_decoder_ids,\n    )",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "postprocess_output",
-        "kind": 2,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "def postprocess_output(generated_ids):\n    if generated_ids.shape[0] > 1:\n        transcription = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)\n        return transcription[0]\n    else:\n        return tokenizer.decode(generated_ids[0], skip_special_tokens=True)",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nmodel_path = \"./models/distill-whisper-th-small\"\nmodel = WhisperForConditionalGeneration.from_pretrained(model_path)\nprocessor = WhisperProcessor.from_pretrained(model_path)\ntokenizer = cast(WhisperProcessor, processor.tokenizer)\nfeature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "model_path",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "model_path = \"./models/distill-whisper-th-small\"\nmodel = WhisperForConditionalGeneration.from_pretrained(model_path)\nprocessor = WhisperProcessor.from_pretrained(model_path)\ntokenizer = cast(WhisperProcessor, processor.tokenizer)\nfeature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "model",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "model = WhisperForConditionalGeneration.from_pretrained(model_path)\nprocessor = WhisperProcessor.from_pretrained(model_path)\ntokenizer = cast(WhisperProcessor, processor.tokenizer)\nfeature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "processor",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "processor = WhisperProcessor.from_pretrained(model_path)\ntokenizer = cast(WhisperProcessor, processor.tokenizer)\nfeature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "tokenizer",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "tokenizer = cast(WhisperProcessor, processor.tokenizer)\nfeature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "feature_extractor",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "feature_extractor = cast(WhisperFeatureExtractor, processor.feature_extractor)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",\n        \"<|notimestamps|>\"",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "documentation": {}
-    },
-    {
-        "label": "device",
-        "kind": 5,
-        "importPath": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "description": "src.asr_transcribe_inference_offline.whisper_th_small",
-        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nmodel.to(device)\nlogger.info(f\"Model loaded and moved to device: {device}\")\ndef create_transcribe_prompt():\n    return [\n        \"<|startoftranscript|>\",\n        \"<|th|>\",\n        \"<|transcribe|>\",\n        \"<|notimestamps|>\"\n    ]",
-        "detail": "src.asr_transcribe_inference_offline.whisper_th_small",
+        "importPath": "src.transcribe_vllm.main",
+        "description": "src.transcribe_vllm.main",
+        "peekOfCode": "app = FastAPI(\n    lifespan=lifespan,\n    title=\"Audio Transcription with vLLM Library\",\n    description=\"An API to transcribe audio files using the vLLM library directly.\",\n    version=\"2.0.0\",\n)\n@app.post(\"/transcribe/\")\nasync def transcribe_audio(file: UploadFile = File(...)):\n    \"\"\"\n    Accepts an audio file, processes it, and uses the vLLM engine to transcribe it.",
+        "detail": "src.transcribe_vllm.main",
         "documentation": {}
     }
 ]
